@@ -32,6 +32,11 @@ module/getproxy_ip.py 由代理池URL中 拉取一个IP并测试有效性 :
 
 ### USAGE 
 
+```
+    git clone git@github.com:problemsname/time-change-proxy.git
+```
+
+
 
 ```
     #代理池地址
@@ -59,6 +64,5 @@ module/getproxy_ip.py 由代理池URL中 拉取一个IP并测试有效性 :
  
 **脚本中有很多注释详细可以查看注释**
 
-### sqlmap -u "http://www.chinabaiker.com/index.php?id=inject" --proxy=http://127.0.0.1:50007
 
 enjoy:)
