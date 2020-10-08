@@ -32,11 +32,13 @@ module/getproxy_ip.py 由代理池URL中 拉取一个IP并测试有效性 :
 
 ### USAGE 
 
+**拉取到本地**
+
 ```
     git clone git@github.com:problemsname/time-change-proxy.git
 ```
 
-
+**配置信息修改**
 
 ```
     #代理池地址
@@ -53,9 +55,12 @@ module/getproxy_ip.py 由代理池URL中 拉取一个IP并测试有效性 :
     def set_proxy(lhost, lport, proxyHost, proxyPort, poolOBJ):
 ```
 
-> pip3 install -r requirements.txt
+**依赖**
 
-> or pip3 install requests 
+
+- pip3 install -r requirements.txt
+
+- or pip3 install requests 
 
 ```
 #运行
