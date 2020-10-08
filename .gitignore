@@ -1,0 +1,7 @@
+
+
+*.ctb
+
+#ignore cache file
+*pycache*/
+*.pyc
