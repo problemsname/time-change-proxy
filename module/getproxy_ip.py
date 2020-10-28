@@ -31,7 +31,7 @@ class get_proxypool_ip:
         #proxyip 格式ip:port 
         proxies = {"http":"http://"+proxyip,"https":"https://" + proxyip}
         try :
-            r = requests.get(target,proxies=proxies,timeout=3)
+            r = requests.head(target,proxies=proxies,timeout=3)
         except Exception:
             return False
         if r.status_code == 200:
